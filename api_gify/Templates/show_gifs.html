@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<body>
+    
+    <table>
+        <thead>Hi, you looked for <b>{{search_content}}</b>? I had them for you!</thead>
+          <tr>
+            <th>gif one</th>
+            <th>gif two!</th>
+            <th>gif three!!</th>
+            
+          </tr>
+          <tr>
+            <td><img src="{{link0}}"></td>
+            <td><img src="{{link1}}"></td>
+            <td><img src="{{link2}}"></td>
+
+          </tr>
+          
+        </table>
+        <br><button type="button" onclick="goBack()">back</button>
+        <script>
+          function goBack() {
+            window.history.back();
+          }
+          </script>
+</body>
