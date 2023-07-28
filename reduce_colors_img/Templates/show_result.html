@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<body>
+    <table>
+      <thead>Used {{number}} colors only</thead>
+        <tr>
+          <th>Before</th>
+          <th>After</th>
+          
+        </tr>
+        <tr>
+          <td><img src="{{ url_for('static', filename='img_before.jpg') }}?{{ now }}"></td>
+          <td><img src="{{ url_for('static', filename='img_after.jpg') }}?{{ now }}"></td>
+        </tr>
+        
+      </table>
+      <br><button type="button" onclick="goBack()">back</button>
+      <script>
+        function goBack() {
+          window.history.back();
+        }
+        </script>
+</body>
