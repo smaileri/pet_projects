@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<head>
+  <title>Explore Belgium Weather</title>
+</head>
+<body>
+    
+    <p>Weather for {{user_input}}</p>
+    <img src={{ url_for('static', filename='prediction.svg') }}>
+    <br><button type="button" onclick="goBack()">back</button>
+    <script>
+      function goBack() {
+        window.history.back();
+      }
+      </script>
+</body>
