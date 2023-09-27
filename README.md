@@ -1,6 +1,10 @@
 # pet_projects
 Here I save some of my small projects. Each has a good structure and MIT license.
 
+## cinema-chairs
+Using YOLOv7 I predict the quantity of chairs in a cinema hall based on a photo. Use Roboflow to annotate some data, and PIL to generate a dataset.
+
+
 ## api_gify
 Flask + gify api, you send key words to a flask server and i show you 3 gifs, that I pbtain via gifi api.
 
